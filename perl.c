@@ -3441,9 +3441,9 @@ S_minus_v(pTHX)
  #endif
 	PIO_stdout =  PerlIO_stdout();
 	    PerlIO_printf(PIO_stdout,
-		"\nThis is perl "	STRINGIFY(PERL_REVISION)
-		", version "		STRINGIFY(PERL_VERSION)
-		", subversion "		STRINGIFY(PERL_SUBVERSION)
+		"\nThis is Pumpkin Perl (perl"	STRINGIFY(PERL_REVISION)
+		"), version "			STRINGIFY(PERL_VERSION)
+		", subversion "			STRINGIFY(PERL_SUBVERSION)
 		" (%"SVf") built for "	ARCHNAME, level
 		);
 	    SvREFCNT_dec(level);
@@ -3452,7 +3452,7 @@ S_minus_v(pTHX)
 	PIO_stdout =  PerlIO_stdout();
 /* Adjust verbose output as in the perl that ships with the DG/UX OS from EMC */
 	PerlIO_printf(PIO_stdout,
-		Perl_form(aTHX_ "\nThis is perl, %"SVf"\n",
+		Perl_form(aTHX_ "\nThis is Pumpkin Perl (perl5), %"SVf"\n",
 		    SVfARG(vstringify(PL_patchlevel))));
 	PerlIO_printf(PIO_stdout,
 			Perl_form(aTHX_ "        built under %s at %s %s\n",
@@ -3513,11 +3513,11 @@ S_minus_v(pTHX)
 #endif
 	PerlIO_printf(PIO_stdout,
 		      "\n\
-Perl may be copied only under the terms of either the Artistic License or the\n\
-GNU General Public License, which may be found in the Perl 5 source kit.\n\n\
-Complete documentation for Perl, including FAQ lists, should be found on\n\
+Pumpkin Perl may be copied only under the terms of either the Artistic License or the\n\
+GNU General Public License, which may be found in the Pumpkin Perl source kit.\n\n\
+Complete documentation for Pumpkin Perl, including FAQ lists, should be found on\n\
 this system using \"man perl\" or \"perldoc perl\".  If you have access to the\n\
-Internet, point your browser at http://www.perl.org/, the Perl Home Page.\n\n");
+Internet, point your browser at http://www.perl.org/, the Pumpkin Perl Home Page.\n\n");
 	my_exit(0);
 }
 

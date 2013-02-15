@@ -1782,7 +1782,7 @@ touch optdef.sh
 touch posthint.sh
 
 : set package name
-package='perl5'
+package='pumpkinperl'
 first=`echo $package | sed -e 's/^\(.\).*/\1/'`
 last=`echo $package | sed -e 's/^.\(.*\)/\1/'`
 case "`echo AbyZ | tr '[:lower:]' '[:upper:]' 2>/dev/null`" in
@@ -6462,7 +6462,7 @@ siteprefixexp="$ansexp"
 : Usual default is /usr/local/lib/perl5/site_perl/$version
 : The default "style" setting is made in installstyle.U
 : XXX No longer works with Prefixit stuff.
-prog=`echo $package | $sed 's/-*[0-9.]*$//'`
+prog='perl'
 case "$sitelib" in
 '') case "$installstyle" in
 	*lib/perl5*) dflt=$siteprefix/lib/$package/site_$prog/$version ;;
