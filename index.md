@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html>
-
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Pumpkin-perl-staging : Staging repostiory for the Pumpkin Perl patchset" />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Pumpkin-perl-staging</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/shadowcat-mst/pumpkin-perl-staging">View on GitHub</a>
-
-          <h1 id="project_title">Pumpkin-perl-staging</h1>
-          <h2 id="project_tagline">Staging repostiory for the Pumpkin Perl patchset</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/shadowcat-mst/pumpkin-perl-staging/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/shadowcat-mst/pumpkin-perl-staging/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+---
+layout: default
+description: "Pumpkin-perl-staging : Staging repostiory for the Pumpkin Perl patchset"
+title: Pumpkin-perl-staging
+---
 
 <h3>What</h3>
 
@@ -306,18 +278,3 @@ people have expressed that they consider important and is also feasible.</p>
 But it would be a significant improvement over the status quo, and I am
 confident that it can actually be implemented and accepted.</p>
 
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Pumpkin-perl-staging maintained by <a href="https://github.com/shadowcat-mst">shadowcat-mst</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
